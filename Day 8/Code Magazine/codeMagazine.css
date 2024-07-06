@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+.nav{
+    background-color: rgb(12, 114, 83);
+    padding: 5px;
+}
+.banner{
+    background-color: rgba(167, 177, 177, 0.263);
+    padding: 40px;
+}
+.head{
+    color:  rgb(12, 114, 83);
+    font-style: italic;
+    font-size: medium;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.btn{
+    padding-top: 10px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(12, 114, 83);
+}
+a:hover{
+    color: red;
+}
+.content-title{
+    position: relative;
+    color: rgb(12, 114, 83);
+    font-size:50px;
+    font-weight: 650;
+    font-family: 'Instrument Sans';
+    margin: 20px;
+}
+.laura{
+    background-image: url(./laura-jones.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    margin: 20px;
+}
+.author{
+    font-size: medium;
+    margin: 20px;
+    font-style: italic;
+    color: rgb(52, 52, 52);
+}
+.code-img{
+    background-image: url(./post-img.jpg);
+    width: 1200px;
+    height: 450px;
+    background-size: cover;
+    margin: 20px;
+}
+.paragraph{
+    font-size: medium;
+    margin: 20px;
+    padding-top: 10px;
+}
+.topic-title{
+    color: rgb(12, 114, 83);
+    font-size:30px;
+    font-weight: 650;
+    font-family: 'Instrument Sans';
+    margin: 20px;
+}
+.list{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.box{
+    position: relative;
+    background-color: rgb(241, 239, 239);
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border-top: 4px solid  rgb(12, 114, 83);
+    border-bottom: 4px solid  rgb(12, 114, 83);
+}
+.box-title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(68, 68, 68);
+}
+.post1{
+    background-image: url(./related-1.jpg);
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-size: cover;
+
+}
+.block{
+    display: flex;
+}
+.link{
+    font-weight: bold;
+    margin-top: 65px;
+}
+.author2{
+    font-weight: bold;
+    color: rgb(52, 52, 52);
+    margin-left: 20px;
+}
+.post2{
+    background-image: url(./related-2.jpg);
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-size: cover;
+}
+.post3{
+    background-image: url(./related-3.jpg);
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-size: cover;
+}
+.footer{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.top{
+    background-color: yellow;
+    position: absolute; 
+    top: 0px;
+    right: 10px;
+    font-size: medium;
+    color: black;
+    padding: 7px;
+    text-align: center;
+}
+.like{
+    position: absolute;
+    color: red;
+    bottom: 0px;
+    right: -700px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: large;
+    background-color: rgba(217, 215, 215, 0.338);
+}
+span{
+    color: black;
+}
